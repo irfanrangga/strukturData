@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1730705855 source:d:\kuliah\praktikum\strukdat\latihan_sll\main.cpp
+	"SLL.h"
+
+1730705855 d:\kuliah\praktikum\strukdat\latihan_sll\sll.h
+	<iostream>
+	<cstdio>
+
+1730705876 source:d:\kuliah\praktikum\strukdat\latihan_sll\sll.cpp
+	"SLL.h"
+
