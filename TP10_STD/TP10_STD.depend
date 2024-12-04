@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1731752826 source:d:\kuliah\praktikum\strukdat\tp10_std\flight.cpp
+	"flight.h"
+
+1731752659 d:\kuliah\praktikum\strukdat\tp10_std\flight.h
+	<iostream>
+
+1731752826 source:d:\kuliah\praktikum\strukdat\tp10_std\main.cpp
+	"flight.h"
+

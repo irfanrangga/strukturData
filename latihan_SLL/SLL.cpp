@@ -6,9 +6,7 @@ void createList(List &L){
 
 address newElm(infotype x){
     address P = new elmList;
-    info(P).author = x.author;
-    info(P).title = x.title;
-    info(P).yearRelease = x.yearRelease;
+    info(P) = x;
     next(P) = nil;
 
     return P;
@@ -29,6 +27,11 @@ void insertLast(List &L, address P){
         }
         next(Q) = P;
     }
+}
+
+void insertAfter(List &L, address Prec, address P){
+    next(P) = next(Prec);
+    next(Prec) = P;
 }
 
 void deleteFirst(List &L, address P){

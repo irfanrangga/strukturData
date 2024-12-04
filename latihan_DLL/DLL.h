@@ -1,37 +1,35 @@
-#ifndef SLL_H_INCLUDED
-#define SLL_H_INCLUDED
+#ifndef DLL_H_INCLUDED
+#define DLL_H_INCLUDED
 #include <iostream>
 #define first(L) L.first
+#define last(L) L.last
 #define info(P) P->info
 #define next(P) P->next
+#define prev(P) P->prev
 #define nil NULL
 using namespace std;
 
-struct lagu{
-    string title;
-    string author;
-    int yearRelease;
-};
-
-typedef lagu infotype;
+typedef int infotype;
 typedef struct elmList *address;
 
 struct elmList{
     infotype info;
     address next;
+    address prev;
 };
 
 struct List{
     address first;
+    address last;
 };
 
 void createList(List &L);
 address newElm(infotype x);
 void insertFirst(List &L, address P);
 void insertLast(List &L, address P);
-void insertAfter(List &L, address Prec, address P);
 void deleteFirst(List &L, address P);
 void deleteLast(List &L, address P);
-void printList(List L);
+void printInfo(List L);
 
-#endif // SLL_H_INCLUDED
+
+#endif // DLL_H_INCLUDED

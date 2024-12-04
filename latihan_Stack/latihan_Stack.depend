@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1730762182 source:d:\kuliah\praktikum\strukdat\latihan_stack\main.cpp
+	"Stack.h"
+
+1730762182 d:\kuliah\praktikum\strukdat\latihan_stack\stack.h
+	<iostream>
+
+1730762182 source:d:\kuliah\praktikum\strukdat\latihan_stack\stack.cpp
+	"Stack.h"
+

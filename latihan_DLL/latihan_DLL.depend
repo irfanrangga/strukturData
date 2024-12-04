@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1730726131 source:d:\kuliah\praktikum\strukdat\latihan_dll\dll.cpp
+	"DLL.h"
+
+1730725744 d:\kuliah\praktikum\strukdat\latihan_dll\dll.h
+	<iostream>
+
+1730726210 source:d:\kuliah\praktikum\strukdat\latihan_dll\main.cpp
+	"DLL.h"
+

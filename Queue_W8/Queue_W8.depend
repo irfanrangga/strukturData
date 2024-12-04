@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1731061784 source:d:\kuliah\praktikum\strukdat\queue_w8\main.cpp
+	"queue_vaksinasi.h"
+
+1731062834 d:\kuliah\praktikum\strukdat\queue_w8\queue_vaksinasi.h
+	<iostream>
+
+1731033691 source:d:\kuliah\praktikum\strukdat\queue_w8\queue_vaksinasi.cpp
+	"queue_vaksinasi.h"
+
